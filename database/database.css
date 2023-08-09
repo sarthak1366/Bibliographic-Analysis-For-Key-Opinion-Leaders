@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css')
+@import url('https://cdn.datatables.net/1.10.25/css/dataTables.semanticui.min.css')
+* {
+
+
+}
+body{
+  background-color:#272727;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+}
+
+.dataTables_length{
+  color: #ffffff;
+}
+.content-table {
+  border-collapse: collapse;
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+  background-color: #3f3f3f;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #121212;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.graph{
+  background-color: #303030;
+  width: 90%;
+  text-align: center;
+  margin-left: 60px;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  color: #000000
+}
+
+.asthmaimage{
+  margin-top: 20px;
+  margin-left: 550px;
+}
+
+tfoot{
+  color: #ffffff ;
+}
+.container {
+  width: 90%;
+  overflow-x: auto;
+  margin-left: 66px;
+}
+
+.language {
+  color: white;
+  background-color: #7a7a7a;
+  padding: 12px 16px;
+  border-radius: 5px 5px 0 0;
+  text-align: right;
+}
+
+.code-wrapper {
+  position: relative;
+}
+
+.code-wrapper pre {
+  background-color: #121212;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 0 0 5px 5px;
+}
+#row {
+  color: red;
+}
+#copy-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 7px;
+  background-color: #1f4287;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  opacity: 0;
+}
+
+#copy-button:hover {
+  background-color: #1f428790;
+}
+
+.code-wrapper:hover #copy-button {
+  opacity: 1;
+}
+
+#copy-success {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #1f4287;
+  color: white;
+  padding: 16px 32px;
+  font-size: 24px;
+  border-radius: 5px;
+  display: none;
+}
+
+#copy-success.show-message {
+  display: inline-block;
+}
+
+.hljs {
+  background-color: transparent;
+}

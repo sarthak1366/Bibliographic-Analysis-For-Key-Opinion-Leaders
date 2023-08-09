@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Asthma Data</title>
+	<link rel="stylesheet" type="text/css" href="asthma.css">
+	<link rel="stylesheet" href="./highlightjs/dracula.css" />
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+  <div >
+    <img class="asthmaimage" src="asthma.svg" alt="page starter image asthma" style="width:10%;height:10%;">
+    <h1 style="text-align: center; , margin-bottom: 20px">Asthama Data</h1>
+  </div>
+
+<div class="graph">
+  <canvas id="network" width="960" height="600"></canvas>
+</div>
+
+
+
+<div class="container">
+   <!--p class="language" id="language-copy" style="font-family: 'Montserrat', sans-serif" >Asthma.json</p-->
+   <div class="code-wrapper">
+   <pre>
+<code id="code">
+ {
+   "title": "Asthma diagnosis and lung testing: Where is the boundary of asthma?",
+   "authors": "['Moral L']",
+   "cited": 0,
+   "pmid": "PMID:32370876",
+   "date": "01 May 2020",
+   "year": 2020,
+   "keyword": "asthma"
+ },
+ {
+   "title": "Impact of asthma severity on long-term asthma control.",
+   "authors": "['Sheikh SI', 'Ryan-Wenger NA', 'Pitts J', 'Nemastil CJ', 'Palacios S']",
+   "cited": 0,
+   "pmid": "PMID:32138568",
+   "date": "23 Mar 2020",
+   "year": 2020,
+   "keyword": "asthma"
+ },
+ {
+   "title": "Severe Asthma.",
+   "authors": "['Thomas NJ', 'Maffei FA']",
+   "cited": 0,
+   "pmid": "PMCID:PMC7178841",
+   "date": "25 Apr 2020",
+   "year": 2020,
+   "keyword": "asthma"
+ },
+</code>
+       </pre>
+        <button id="copy-button" style="font-family: 'Montserrat', sans-serif">Copy</button>
+      </div>
+      <span id="copy-success" style="font-family: 'Montserrat', sans-serif">.json copied</span>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+
+
+<h1>Degree Centrality</h1>
+	<table class="content-table">
+  <thead>
+    <tr>
+      <th>Author Name</th>
+      <th>Degree Centrality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mozaffarian D</td>
+      <td>376.2155339805825</td>
+    </tr>
+    <tr>
+      <td>Benjamin EJ</td>
+      <td>276.2485436893204</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Gillespie C</td>
+      <td>260.1766990291262</td>
+    </tr>
+    <tr>
+      <td>Ford ES</td>
+      <td>252.26990291262135</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Go AS</td>
+      <td>223.34174757281554</td>
+    </tr>
+    <tr>
+      <td>Benjamin EJ</td>
+      <td>276.2485436893204</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Roger VL</td>
+      <td>223.34174757281554</td>
+    </tr>
+    <tr>
+      <td>Berry JD</td>
+      <td>223.34174757281554</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Mozaffarian D</td>
+      <td>376.2155339805825</td>
+    </tr>
+    <tr>
+      <td>Dai S</td>
+      <td>223.34174757281554</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Fox CS</td>
+      <td>223.34174757281554</td>
+    </tr>
+    <tr>
+      <td>Anderson HR</td>
+      <td>217.98058252427182</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Pearce N</td>
+      <td>217.98058252427182</td>
+    </tr>
+    <tr>
+      <td>Lim SS</td>
+      <td>191.15533980582524</td>
+	</td>
+    </tr>
+</tbody>
+</table>
+
+<h1>Closeness Centrality</h1>
+	<table class="content-table">
+  <thead>
+    <tr>
+      <th>Author Name</th>
+      <th>Closeness Centrality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bousquet J</td>
+      <td>4.426168106180639e-05</td>
+    </tr>
+    <tr>
+      <td>Bateman ED</td>
+      <td>3.373688819653453e-05</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Ohta K</td>
+      <td>3.373688819653453e-05</td>
+    </tr>
+    <tr>
+      <td>Busse WW</td>
+      <td>3.3156021269558054e-05</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Cruz AA</td>
+      <td>3.261240390762949e-05</td>
+    </tr>
+    <tr>
+      <td>Denburg J</td>
+      <td>3.261240390762949e-05</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Fokkens WJ</td>
+      <td>3.261240390762949e-05</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Togias A</td>
+      <td>3.261240390762949e-05</td>
+    </tr>
+    <tr>
+      <td>Zuberbier T</td>
+      <td>3.261240390762949e-05</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Baena-Cagnani CE</td>
+      <td>3.261240390762949e-05</td>
+    </tr>
+    <tr>
+      <td>Canonica GW</td>
+      <td>3.261240390762949e-05</td>
+	</td>
+    </tr>
+    <tr>
+      <td>van Weel C</td>
+      <td>3.261240390762949e-05</td>
+    </tr>
+    <tr>
+      <td>Khaltaev N</td>
+      <td>3.072593634594955e-05</td>
+	</td>
+    </tr>
+    <tr>
+      <td>World Health Organization</td>
+      <td>3.072593634594955e-05</td>
+	</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>Betweeness Centrality</h1>
+	<table class="content-table">
+  <thead>
+    <tr>
+      <th>Author Name</th>
+      <th>Betweeness Centrality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mozaffarian D</td>
+      <td>613.0</td>
+    </tr>
+    <tr>
+      <td>Benjamin EJ</td>
+      <td>591.3333333333335</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Anderson HR</td>
+      <td>447.34615384615387</td>
+    </tr>
+    <tr>
+      <td>Pearce N</td>
+      <td>447.34615384615387</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Asher MI</td>
+      <td>420.125</td>
+    </tr>
+    <tr>
+      <td>Ford ES</td>
+      <td>367.33333333333337</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Bousquet J</td>
+      <td>358.99999999999994</td>
+    </tr>
+    <tr>
+      <td>Durham SR</td>
+      <td>264.0</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Beasley R</td>
+      <td>252.125</td>
+    </tr>
+    <tr>
+      <td>Blaha MJ</td>
+      <td>143.0</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Adams RJ</td>
+      <td>126.5</td>
+    </tr>
+    <tr>
+      <td>Brown TM</td>
+      <td>126.5</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Carnethon MR</td>
+      <td>126.5</td>
+    </tr>
+    <tr>
+      <td>de Simone G</td>
+      <td>126.5</td>
+	</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>Eigen Vector Centrality</h1>
+	<table class="content-table">
+  <thead>
+    <tr>
+      <th>Author Name</th>
+      <th>Eigen Vector Centrality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mozaffarian D</td>
+      <td>0.3353670822988138</td>
+    </tr>
+    <tr>
+      <td>Gillespie C</td>
+      <td>0.2705467079066017</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Benjamin EJ</td>
+      <td>0.260876924554869</td>
+    </tr>
+    <tr>
+      <td>Ford ES</td>
+      <td>0.2573422481894567</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Go AS</td>
+      <td>0.2563564168586324</td>
+    </tr>
+    <tr>
+      <td>Roger VL</td>
+      <td>0.2563564168586324</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Berry JD</td>
+      <td>0.2563564168586324</td>
+    </tr>
+    <tr>
+      <td>Dai S</td>
+      <td>0.2563564168586324</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Fox CS</td>
+      <td>0.25635641685863236</td>
+    </tr>
+    <tr>
+      <td>Borden WB</td>
+      <td>0.1421280131293895</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Bravata DM</td>
+      <td>0.1421280131293895</td>
+    </tr>
+    <tr>
+      <td>Franco S</td>
+      <td>0.1373818139957117</td>
+	</td>
+    </tr>
+    <tr>
+      <td>Anderson HR</td>
+      <td>0.13292820943089928</td>
+    </tr>
+    <tr>
+      <td>Pearce N</td>
+      <td>0.13292820943089925</td>
+	</td>
+    </tr>
+  </tbody>
+</table>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<script>
+
+var color = d3.scaleOrdinal(d3.schemeCategory10);
+
+var canvas = d3.select("#network"),
+  width = canvas.attr("width"),
+  height = canvas.attr("height"),
+  ctx = canvas.node().getContext("2d"),
+  r = 5,
+//  color = d3.scaleOrdinal(d3.schemeCategory20),
+x = d3.scaleOrdinal().range([20,width-20])
+  simulation = d3.forceSimulation()
+    .force("x", d3.forceX(function(d){
+      return x(d.party)
+    }))
+    .force("y", d3.forceY(height/2))
+    .force("collide", d3.forceCollide(r+6))
+    .force("charge", d3.forceManyBody()
+      .strength(-120))
+    .force("link", d3.forceLink()
+      .id(function (d) { return d.name; }));
+
+
+d3.json("asthma.json", function (err, graph) {
+  if (err) throw err;
+
+  simulation.nodes(graph.nodes);
+  simulation.force("link")
+    .links(graph.links);
+  simulation.on("tick", update);
+
+  canvas
+      .call(d3.drag()
+          .container(canvas.node())
+          .subject(dragsubject)
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended));
+
+  function update() {
+    ctx.clearRect(0, 0, width, height);
+
+    ctx.beginPath();
+    ctx.globalAlpha = 0.1;
+    ctx.strokeStyle = "#aaa";
+    graph.links.forEach(drawLink);
+    ctx.stroke();
+
+
+    ctx.globalAlpha = 1.0;
+    graph.nodes.forEach(drawNode);
+  }
+
+  function dragsubject() {
+    return simulation.find(d3.event.x, d3.event.y);
+  }
+
+});
+
+function dragstarted() {
+  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+  d3.event.subject.fx = d3.event.subject.x;
+  d3.event.subject.fy = d3.event.subject.y;
+  console.log(d3.event.subject);
+}
+
+function dragged() {
+  d3.event.subject.fx = d3.event.x;
+  d3.event.subject.fy = d3.event.y;
+}
+
+function dragended() {
+  if (!d3.event.active) simulation.alphaTarget(0);
+  d3.event.subject.fx = null;
+  d3.event.subject.fy = null;
+}
+
+
+
+function drawNode(d) {
+  ctx.beginPath();
+  ctx.fillStyle = color(d.party);
+  ctx.moveTo(d.x, d.y);
+  ctx.arc(d.x, d.y, r, 0, Math.PI*2);
+  ctx.fill();
+}
+
+function drawLink(l) {
+  ctx.moveTo(l.source.x, l.source.y);
+  ctx.lineTo(l.target.x, l.target.y);
+}
+
+</script>
+
+</body>
+</html>

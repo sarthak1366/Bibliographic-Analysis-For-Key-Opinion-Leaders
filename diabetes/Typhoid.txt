@@ -1,0 +1,231 @@
+<h1>Degree Centrality</h1>
+<table class="content-table">
+    <thead>
+        <tr>
+            <th>Author Name</th>
+            <th>Degree Centrality</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Lozano R</td>
+            <td>1319.505376344086</td>
+        </tr>
+        <tr>
+            <td>Naghavi M</td>
+            <td>1319.505376344086</td>
+            </td>
+        </tr>
+        <tr>
+            <td>Shibuya K</td>
+            <td>1319.505376344086</td>
+        </tr>
+        <tr>
+            <td>Aboyans V</td>
+            <td>1319.505376344086</td>
+            </td>
+        </tr>
+        <tr>
+            <td>Vos T</td>
+            <td>1319.505376344086</td>
+        </tr>
+        <tr>
+            <td>Flaxman AD</td>
+            <td>1319.505376344086</td>
+            </td>
+        </tr>
+        <tr>
+            <td>Salomon JA</td>
+            <td>1319.505376344086</td>
+        </tr>
+        <tr>
+            <td>Murray CJ</td>
+            <td>1319.505376344086</td>
+            </td>
+        </tr>
+        <tr>
+            <td>Foreman K</td>
+            <td>1227.4623655913979</td>
+        </tr>
+        <tr>
+            <td>Abraham J</td>
+            <td>1227.4623655913979</td>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<h1>Closeness Centrality</h1>
+<table class="content-table">
+    <thead>
+        <tr>
+            <th>Author Name</th>
+            <th>Closeness Centrality</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Freedman DO</td>
+            <td>5.5489789878662325e-05</td>
+        </tr>
+        <tr>
+            <td>Weld LH</td>
+            <td>5.5489789878662325e-05</td>
+            </td>
+        </tr>
+        <tr>
+            <td>Kozarsky PE</td>
+            <td>5.5489789878662325e-05</td>
+            </td>
+        </tr>
+        <tr>
+            <td>Fisk T</td>
+            <td>5.5489789878662325e-05</td>
+            </td>
+        </tr>
+        <tr>
+            <td>Robins R</td>
+            <td>5.5489789878662325e-05</td>
+            </td>
+        </tr>
+        <tr>
+            <td>von Sonnenburg F</td>
+            <td>5.5489789878662325e-05</td>
+            </td>
+        </tr>
+        <tr>
+            <td>Keystone JS</td>
+            <td>5.5489789878662325e-05</td>
+            </td>
+        </tr>
+        <tr>
+            <td>Pandey P</td>
+            <td>5.5489789878662325e-05</td>
+            </td>
+        </tr>
+        <tr>
+            <td>GeoSentinel Surveillance Network</td>
+            <td>5.5489789878662325e-05</td>
+            </td>
+        </tr>
+        <tr>
+            <td>Hardt WD</td>
+            <td>5.252387735464542e-05</td>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<h1>Betweeness Centrality</h1>
+<table class="content-table">
+    <thead>
+        <tr>
+            <th>Author Name</th>
+            <th>Betweeness Centrality</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Abdalla S</td>
+            <td>129.0</td>
+        </tr>
+        <tr>
+            <td>Mulholland K</td>
+            <td>112.0</td>
+            </td>
+        </tr>
+        <tr>
+            <td>Crump JA</td>
+            <td>63.111111111111114</td>
+        </tr>
+        <tr>
+            <td>Lozano R</td>
+            <td>19.749999999999993</td>
+            </td>
+        </tr>
+        <tr>
+            <td>Naghavi M</td>
+            <td>19.749999999999993</td>
+            </td>
+        </tr>
+        <tr>
+            <td>Shibuya K</td>
+            <td>19.749999999999993</td>
+            </td>
+        </tr>
+        <tr>
+            <td>Aboyans V</td>
+            <td>19.749999999999993</td>
+            </td>
+        </tr>
+        <tr>
+            <td>Vos T</td>
+            <td>19.749999999999993</td>
+            </td>
+        </tr>
+        <tr>
+            <td>Flaxman AD</td>
+            <td>19.749999999999993</td>
+            </td>
+        </tr>
+        <tr>
+            <td>Salomon JA</td>
+            <td>19.749999999999993</td>
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+
+<h1>Eigen Vector Centrality</h1>
+<table class="content-table">
+    <thead>
+        <tr>
+            <th>Author Name</th>
+            <th>Eigen Vector Centrality</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Lozano R</td>
+            <td>0.2575522920881225</td>
+        </tr>
+        <tr>
+            <td>Naghavi M</td>
+            <td>0.2575522920881225</td>
+        </tr>
+        <tr>
+            <td>Shibuya K</td>
+            <td>0.2575522920881225</td>
+        </tr>
+        <tr>
+            <td>Aboyans V</td>
+            <td>0.2575522920881225</td>
+        </tr>
+        <tr>
+            <td>Vos T</td>
+            <td>0.2575522920881225</td>
+        </tr>
+        <tr>
+            <td>Flaxman AD</td>
+            <td>0.2575522920881225</td>
+        </tr>
+        <tr>
+            <td>Salomon JA</td>
+            <td>0.2575522920881225</td>
+        </tr>
+        <tr>
+            <td>Murray CJ</td>
+            <td>0.2575522920881225</td>
+        </tr>
+        <tr>
+            <td>Foreman K</td>
+            <td>0.2489159644741324</td>
+        </tr>
+        <tr>
+            <td>Abraham J</td>
+            <td>0.2489159644741324</td>
+        </tr>
+
+    </tbody>
+</table>
